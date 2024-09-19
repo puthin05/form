@@ -1,0 +1,87 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0052d4, #65c6bb); /* Professional gradient background */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40; /* Darker text color */
+}
+
+form {
+  background: rgba(255, 255, 255, 0.5); /* Light white background with some transparency */
+  backdrop-filter: blur(10px); /* Blur effect */
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 400px;
+  margin: auto;
+}
+
+.tab-navigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-navigation button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tab-navigation button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.5); /* Light white background with some transparency */
+  backdrop-filter: blur(5px); /* Blur effect */
+}
+
+
+
+.navigation-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 120px; /* Set a specific width for these buttons */
+  margin-left: 240px;
+  margin-right: 250px; /* Space between buttons */
+}
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+pre {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  overflow: auto;
+}
